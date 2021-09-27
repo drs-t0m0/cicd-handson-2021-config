@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: goapp
-        image: ghcr.io/drs-t0m0/cicd-handson-2021-code/go-image:12
+        image: docker.pkg.github.com/drs-t0m0/cicd-handson-2021-code/go-image:12
         ports:
         - containerPort: 9090
       imagePullSecrets:
